@@ -12,6 +12,9 @@ footer {position: relative;
 body {background-color: lightsteelblue;}
 
 img {
-    height: 3%;
-    width: 8%;
+    height: 10%;
+    width: 20%;
 }
+ h1 {
+     color: grey;
+ }
