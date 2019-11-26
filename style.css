@@ -1,3 +1,17 @@
 .checked {
     color:red;
   }
+
+
+footer {position: relative;
+    top: -20px;
+    left: 1200px;
+    width: 50px;
+}
+
+body {background-color: lightsteelblue;}
+
+img {
+    height: 3%;
+    width: 8%;
+}
