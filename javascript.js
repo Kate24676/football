@@ -1,6 +1,6 @@
 function Rating(starRating) {
 
-    for (var i = 1; i < 6; i++){
+    for (var i = 1; i < 11; i++){
         console.log("rating" + i)
         var element = document.getElementById("rating" + i);
         if (element.classList.contains("checked")){
