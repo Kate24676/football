@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript.js"></script>
+    <title class="title">Footballers</title>
+</head>
+<body>
+        <main>
+                <h1>David De Gea</h1>
+                <figure>
+                        <img src="https://i.pinimg.com/originals/7b/96/d5/7b96d5ccc28c5a2641e11af3338bbeab.png"/>
+                        <h2>Nationality:
+                            <span class="country">Spain</span>
+                            <span><img class="image" src="images/es.png"></span>
+                        </h2>
+                        <h3>Club: 
+                            <span class="club">Manchester United</span>
+                        <span><img class="icon" src="images/Manchester-United-icon.png"></span></h3>
+                </figure>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                <span class="fa fa-star checked" id="rating1" onclick="Rating(1)"></span>
+                <span class="fa fa-star checked" id="rating2" onclick="Rating(2)"></span>
+                <span class="fa fa-star checked" id="rating3" onclick="Rating(3)"></span>
+                <span class="fa fa-star checked" id="rating4" onclick="Rating(4)"></span>
+                <span class="fa fa-star checked" id="rating5" onclick="Rating(5)"></span>
+                <span class="fa fa-star checked" id="rating6" onclick="Rating(6)"></span>
+                <span class="fa fa-star checked" id="rating7" onclick="Rating(7)"></span>
+                <span class="fa fa-star checked" id="rating8" onclick="Rating(8)"></span>
+                <span class="fa fa-star checked" id="rating9" onclick="Rating(9)"></span>
+                <span class="fa fa-star checked" id="rating10" onclick="Rating(10)"></span>
+        </main>
+</body>
+<script>
+fetch ('https://s6i4o1mcjj.execute-api.eu-west-1.amazonaws.com/bata/footballer').then(res => {
+    return res.json();
+}).then(res => {
+    res.Item 
+}).catch(err => {
+    console.log(err)
+})
+
+
+</script>
+
+</html>
+
+<footer>
+    <a href="file:///C:/Users/CCUK/dev/football/player.html">next</a>
+</footer>
